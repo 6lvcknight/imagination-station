@@ -17,10 +17,10 @@ const Navbar = () => {
     </div>
     {isOpen &&(
     <div className='w-full h-screen bg-slate-200 flex flex-col justify-center items-center overflow-hidden font-mono duration-1000'>
-        <Link className='text-[5vw] hover:text-white hover:scale-110 active:scale-90 duration-700' href="">Home</Link>
-        <Link className='text-[5vw] hover:text-white hover:scale-110 active:scale-90 duration-700' href="">Create</Link>
-        <Link className='text-[5vw] hover:text-white hover:scale-110 active:scale-90 duration-700' href="">Stories</Link>
-        <Link className='text-[5vw] hover:text-white hover:scale-110 active:scale-90 duration-700' href="">Library</Link>
+        <Link className='text-[5vw] hover:text-white hover:scale-110 active:scale-90 duration-700' href="/">Home</Link>
+        <Link className='text-[5vw] hover:text-white hover:scale-110 active:scale-90 duration-700' href="/Create">Create</Link>
+        <Link className='text-[5vw] hover:text-white hover:scale-110 active:scale-90 duration-700' href="/posts">Stories</Link>
+        <Link className='text-[5vw] hover:text-white hover:scale-110 active:scale-90 duration-700' href="/Login">Library</Link>
       
 
     </div>)}

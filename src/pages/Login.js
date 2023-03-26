@@ -5,7 +5,6 @@ const Login = () => {
   return (
     <div className='w-full h-screen flex items-center justify-center'>
         <div className='w-[80vw] h-full flex '>
-
 <main
   class="container mx-auto p-4 mt-12 bg-white flex flex-col items-center justify-center text-gray-700"
 >

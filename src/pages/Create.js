@@ -1,3 +1,4 @@
+import Navbar from '@/Components/Navbar';
 import React,{useState} from 'react'
 
 const Create = () => {
@@ -12,7 +13,8 @@ const Create = () => {
       console.log('submit')
       }
   return (
-    <div className='h-screen w-full bg-yellow-200 flex justify-center items-center'>
+    <div className='mah-screen w-full flex-col bg-yellow-200 flex justify-center items-center'>
+       <Navbar />
             <div className='w-[60vw] flex flex-col justify-center items-center '>
                 <div className='md:text-5xl text-2xl font-mono'> The Story Maker</div>
                 <div className='w-full p-5'>
@@ -28,6 +30,7 @@ const Create = () => {
 
 
               <div></div>
+            
             </div>
     
     </div>
