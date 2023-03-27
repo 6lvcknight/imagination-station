@@ -15,10 +15,7 @@ export function Airplane2(props) {
   const { nodes, materials, animations } = useGLTF('./models/Airplane2/scene-transformed.glb')
   const { actions } = useAnimations(animations, group)
 
-  useEffect(()=> {
-    console.log(actions);
-    // actions.Dynamic_pose.play();
-  })
+
     
   
   return (
