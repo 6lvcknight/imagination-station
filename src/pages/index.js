@@ -5,7 +5,7 @@ import Transition from '@/Components/TransitionEffect'
 const index = () => {
   return (
     <div>
-      <Transition />
+      {/* <Transition /> */}
       <App />
 
      

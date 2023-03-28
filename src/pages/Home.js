@@ -1,15 +1,14 @@
-
+import Transition from '@/Components/TransitionEffect'
 import React from 'react'
 import Favorites from '@/Components/Favorites'
-import Floor from '@/Components/Floor'
 import Hero from '@/Components/Hero'
 import Navbar from '@/Components/Navbar'
 import LightBulb from '@/Components/LightBulb'
 import { Canvas } from '@react-three/fiber'
 import { Airplane } from '@/models/Airplane'
 import { Airplane2 } from '@/models/Airplane2'
-import Box from '@/Components/Box'
 import { Float ,Cloud } from '@react-three/drei'
+import Footer from '@/Components/Footer'
 
 
 
@@ -22,6 +21,7 @@ const Home = () => {
   return (
     <div className='min-h-[100vh] w-full bg-yellow-200 flex flex-col justify-center items-center'>
         <Navbar />
+        <Transition />
         {/* div for three.js elements  */}
         <div className='h-screen w-full relative '>
         <Canvas shadows className='z-0'
@@ -71,7 +71,7 @@ const Home = () => {
         <Favorites />
         </div>
    
-        
+        <Footer />
      
     </div>
   )
