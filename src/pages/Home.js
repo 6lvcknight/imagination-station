@@ -70,8 +70,11 @@ const Home = () => {
           </Canvas>
         <Favorites />
         </div>
+   <div >
    
-        <Footer />
+   <Footer />
+   </div>
+        
      
     </div>
   )

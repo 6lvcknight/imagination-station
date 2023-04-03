@@ -16,6 +16,7 @@ const posts = () => {
       <Card />
       <Card />
       <Card />
+     
   </div>
       </div>
       
