@@ -7,10 +7,10 @@ import{ BsHandIndexThumb} from 'react-icons/bs';
 const Navbar = () => {
     const [isOpen,setNav] = useState(false);
   return (
-    <div className='w-full   absolute top-0 duration-1000 z-30 overflow-hidden' >
-    <div className='w-full fixed top-0 duration-1000 bg-gradient-to-b from-yellow-200  p-[15vh] '>
+    <div className='w-full   sticky top-0 duration-1000 z-30 overflow-hidden' >
+    <div className='w-full fixed top-0 duration-1000 bg-gradient-to-b from-black  p-[15vh] '>
         <div className='top-4 fixed right-40 duration-1000'>
-            <button onClick={()=> setNav(!isOpen)} className='hover:bg-black/10 p-4 rounded-full duration-1000'>
+            <button onClick={()=> setNav(!isOpen)} className='bg-white p-4 rounded-full duration-1000'>
              <BsHandIndexThumb className='hover:animate-bounce ' size={30}/>
             </button>
         </div>

@@ -15,7 +15,7 @@ const Hero = () => {
                 </div>
             </div>
             
-            <div className='w-full h-32 bottom-0 absolute bg-gradient-to-t from-yellow-200' />
+            <div className='w-full h-32 bottom-0 absolute bg-gradient-to-t from-black' />
           
              </div>
          </div>

@@ -46,14 +46,14 @@ const Create = () => {
   }
 
   return (
-    <div className=" w-full flex-col bg-yellow-200 flex justify-center absolute top-0 items-center">
+    <div className=" w-full flex-col bg-black flex justify-center absolute top-0 items-center">
       <Navbar />
       <Transition />
       <div className="w-[60vw] flex flex-col justify-center items-center h-screen  ">
-        <div className="md:text-5xl text-2xl font-mono "> The Story Maker</div>
+        <div className="md:text-5xl text-2xl font-mono text-white"> The Story Maker</div>
           <form className='w-full  flex items-center justify-center py-10' onSubmit={handleSubmit} >
             <div class="w-10/12 sm:w-8/12 md:w-6/12 lg:w-5/12 xl:w-4/12 mb-6">
-              <label>Story Line</label>
+              <label className='text-white'>Story Line</label>
               <input
                 class="mb-4 p-2 appearance-none block w-full bg-gray-200 placeholder-gray-900 rounded border focus:border-teal-500"
                 type="text"
