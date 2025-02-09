@@ -21,6 +21,7 @@ env = environ.Env(DEBUG=(bool, False))
 environ.Env.read_env(BASE_DIR / '.env')
 
 FRONTEND_URL = env("FRONTEND_URL")
+OPENAI_API_KEY = env("OPENAI_API_KEY")
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
