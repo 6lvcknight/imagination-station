@@ -14,4 +14,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"), // Ensures `@/Components` works 
     },
   },
+  server: {
+    port: process.env.PORT || 5173, 
+  }
 })
