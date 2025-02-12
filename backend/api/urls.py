@@ -1,6 +1,6 @@
 from django.urls import path
 from user.views import MyTokenObtainPairView, RegisterView, PasswordResetEmailVerify, PasswordChangeView
-from story.views import generator
+from story.views import generator, StoryDetail
 
 from rest_framework_simplejwt.views import TokenRefreshView
 
@@ -13,5 +13,6 @@ urlpatterns = [
     path('user/password-reset/', PasswordChangeView.as_view(), name='password_reset'),
 
     # STORY ENDPOINTS
-    path('api/generator/', generator, name='generator')
+    path('generate/', generator, name='generator'),
+    path('story/', StoryDetail.as_view(), name='story_detail')
 ]
